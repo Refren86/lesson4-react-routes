@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #243156;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+  height: 50px;
+}
+
+.navbar a {
+  font-size: 1.4rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+.navbar a:hover {
+  color: crimson;
+}
+
+.navbar a[class='active'] {
+  text-decoration: underline;
+  color: crimson;
+}
+
+.footer {
+  height: 40px;
+  background-color: #243156;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContent {
+  max-width: 90%;
+  margin: 0 auto;
+  height: calc(100vh - 90px);
+  overflow: hidden;
+  overflow-y: auto;
+}

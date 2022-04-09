@@ -1,0 +1,16 @@
+.postWrapper {
+  margin: 10px 0;
+}
+
+.returnBtn {
+  display: flex;
+  column-gap: 5px;
+  font-size: 1rem;
+  align-items: center;
+  border: none;
+  background-color: crimson;
+  padding: 7px 12px;
+  cursor: pointer;
+  color: white;
+  border-radius: 7px;
+}
