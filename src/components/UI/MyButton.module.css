@@ -1,0 +1,12 @@
+.myBtn {
+  border: none;
+  background-color: crimson;
+  color: white;
+  border-radius: 7px;
+  padding: 4px 10px;
+  transition: background-color 1s ease-out;
+}
+
+.myBtn:hover {
+  background-color: rgb(154, 36, 60);
+}
